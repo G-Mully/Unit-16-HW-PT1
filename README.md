@@ -43,7 +43,7 @@ Country: US </b>
 
 Is Altoro Mutual vulnerable to XSS: <b> Yes it is </b>
 
-https://github.com/G-Mully/Unit-16-Homework/blob/main/DemoTestFire-XSSED.png
+![](Images/DemoTestFire-XSSED.png)
 
 
 ### Step 5: Zenmap
@@ -57,11 +57,10 @@ Your client has asked that you help identify any vulnerabilities with their file
 - Zenmap vulnerability script command: 
 
 - Once you have identified this vulnerability, answer the following questions for your client:
-  1. What is the vulnerability:
+  1. What is the vulnerability:<br><b>Samab (SMB) - SMB Shares Enumeration and possibly Microsoft SMBv1 to a remote code execution vulnerability (ms17-010, a.k.a. EternalBlue).</b>
 
-  2. Why is it dangerous:
+  2. Why is it dangerous: <br><b>The vulnerability is actively exploited by WannaCry and Petya ransomware and other malware. TCP Port 139 is one of the highest-risk ports on the network and you may need to disable the port 139 to avoid the WannaCry ransomware attack. If the computer supports both NBT protocol and the TCP/IP protocol, the NetBIOS session will start via the available 139 port or 445 port.</b>
 
-  3. What mitigation strategies can you recommendations for the client to protect their server:
+  3. What mitigation strategies can you recommendations for the client to protect their server: <br><b>
+   It's recommended that you disable NetBIOS over TCP/IP on your cluster network NIC and other dedicated-purpose NICs, such as for iSCSI and Live Migration. NetBIOS isn't used in Server 2008 R2 clusters.</b>
 
----
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.  
