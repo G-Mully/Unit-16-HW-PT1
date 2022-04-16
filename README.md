@@ -54,7 +54,7 @@ Your client has asked that you help identify any vulnerabilities with their file
  
 - Bonus command to output results into a new text file named `zenmapscan.txt`: <br><b>namp 192.168.0.10 -sV > zenmapsscan.txt</b>
 
-- Zenmap vulnerability script command: 
+- Zenmap vulnerability script command: <br><b> nmap -- script smb-enum-shares,smb-vuln-ms17-101 192.168.0.10</b> 
 
 - Once you have identified this vulnerability, answer the following questions for your client:
   1. What is the vulnerability:<br><b>Samab (SMB) - SMB Shares Enumeration and possibly Microsoft SMBv1 to a remote code execution vulnerability (ms17-010, a.k.a. EternalBlue).</b>
