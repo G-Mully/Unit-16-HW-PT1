@@ -27,6 +27,8 @@ Country: US </b>
   4. What is the IP address of the DNS server:
   <br><b>117.137.61.65<br></b>
 
+<br>
+
 #### Step 3: Shodan
 
 - What open ports and running services did Shodan find:
@@ -34,6 +36,8 @@ Country: US </b>
 <br>- 443
 <br>- 8080
 <br> All of the ports are using Apache-Coyote/1.1</b>  
+
+<br>
 
 #### Step 4: Recon-ng
 
@@ -44,6 +48,8 @@ Country: US </b>
 Is Altoro Mutual vulnerable to XSS: <b> Yes it is </b>
 
 ![](Images/DemoTestFire-XSSED.png)
+
+<br>
 
 
 ### Step 5: Zenmap
