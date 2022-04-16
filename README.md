@@ -14,11 +14,10 @@
 Enter the IP address for `demo.testfire.net` into Domain Dossier and answer the following questions based on the results:
 
   1. Where is the company located:<br> 
-<b>Address:        9725 Datapoint Drive, Suite 100<br>
-City:           San Antonio<br>
-StateProv:      TX<br>
-PostalCode:     78229<br>
-Country:        US </b>
+<b>City: Sunnyvale<br>
+StateProv: CA<br>
+PostalCode: 94085<br>
+Country: US </b>
 
   2. What is the NetRange IP address: <br> <b> NetRange:    65.61.137.64 - 65.61.137.127</b>
 
@@ -26,14 +25,15 @@ Country:        US </b>
   3. What is the company they use to store their infrastructure:<br><b> CustName: Rackspace Backbone Engineering<br></b>
 
   4. What is the IP address of the DNS server:
-  <br><b>65.61.137.117<br></b>
+  <br><b>117.137.61.65<br></b>
 
 #### Step 3: Shodan
 
 - What open ports and running services did Shodan find:
 <b><br>- 80
 <br>- 443
-<br>- 8080</b>  
+<br>- 8080
+<br> All of the ports are using Apache-Coyote/1.1</b>  
 
 #### Step 4: Recon-ng
 
@@ -41,17 +41,18 @@ Country:        US </b>
 - Set the source to `demo.testfire.net`. 
 - Run the module. 
 
-Is Altoro Mutual vulnerable to XSS: Yes it is
+Is Altoro Mutual vulnerable to XSS: <b> Yes it is </b>
 
+https://github.com/G-Mully/Unit-16-Homework/blob/main/DemoTestFire-XSSED.png
 
 
 ### Step 5: Zenmap
 
 Your client has asked that you help identify any vulnerabilities with their file-sharing server. Using the Metasploitable machine to act as your client's server, complete the following:
 
-- Command for Zenmap to run a service scan against the Metasploitable machine: 
+- Command for Zenmap to run a service scan against the Metasploitable machine: <br><b> namp 192.168.0.10 -sV</b>
  
-- Bonus command to output results into a new text file named `zenmapscan.txt`:
+- Bonus command to output results into a new text file named `zenmapscan.txt`: <br><b>namp 192.168.0.10 -sV > zenmapsscan.txt</b>
 
 - Zenmap vulnerability script command: 
 
