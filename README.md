@@ -50,9 +50,9 @@ Is Altoro Mutual vulnerable to XSS: <b> Yes it is </b>
 
 Your client has asked that you help identify any vulnerabilities with their file-sharing server. Using the Metasploitable machine to act as your client's server, complete the following:
 
-- Command for Zenmap to run a service scan against the Metasploitable machine: <br><b> namp 192.168.0.10 -sV</b>
+- Command for Zenmap to run a service scan against the Metasploitable machine: <br><b> nmap 192.168.0.10 -sV</b>
  
-- Bonus command to output results into a new text file named `zenmapscan.txt`: <br><b>namp 192.168.0.10 -sV > zenmapsscan.txt</b>
+- Bonus command to output results into a new text file named `zenmapscan.txt`: <br><b>nmap 192.168.0.10 -sV > zenmapsscan.txt</b>
 
 - Zenmap vulnerability script command: <br><b> nmap -- script smb-enum-shares,smb-vuln-ms17-101 192.168.0.10</b> 
 
