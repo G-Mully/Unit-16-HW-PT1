@@ -5,7 +5,7 @@
 
 - Using Google, can you identify who the Chief Executive Officer of Altoro Mutual is: <b>Karl Fitzgerald</b>
 
-- How can this information be helpful to an attacker: <b>This is a starting point for a hacker or inflitrator to being their data mining their attack target.</b>
+- How can this information be helpful to an attacker: <b>This is a starting point for a hacker or inflitrator to begin data mining the target.</b>
 
 <br>
 
