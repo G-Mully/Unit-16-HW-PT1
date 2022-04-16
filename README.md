@@ -44,6 +44,7 @@ Country:        US </b>
 Is Altoro Mutual vulnerable to XSS: Yes it is
 
 
+
 ### Step 5: Zenmap
 
 Your client has asked that you help identify any vulnerabilities with their file-sharing server. Using the Metasploitable machine to act as your client's server, complete the following:
