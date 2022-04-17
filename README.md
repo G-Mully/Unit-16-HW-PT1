@@ -25,7 +25,7 @@ Country: US </b>
   3. What is the company they use to store their infrastructure:<br><b> CustName: Rackspace Backbone Engineering<br></b>
 
   4. What is the IP address of the DNS server:
-  <br><b>117.137.61.65<br></b>
+  <br><b>65.61.137.117<br></b>
 
 <br>
 
@@ -58,7 +58,7 @@ Your client has asked that you help identify any vulnerabilities with their file
 
 - Command for Zenmap to run a service scan against the Metasploitable machine: <br><b> nmap 192.168.0.10 -sV</b>
  
-- Bonus command to output results into a new text file named `zenmapscan.txt`: <br><b>nmap 192.168.0.10 -sV > zenmapsscan.txt</b>
+- Bonus command to output results into a new text file named `zenmapscan.txt`: <br><b>nmap -sV -oN zenmapsscan.txt 192.168.0.10</b>
 
 - Zenmap vulnerability script command: <br><b> nmap -- script smb-enum-shares,smb-vuln-ms17-101 192.168.0.10</b> 
 
